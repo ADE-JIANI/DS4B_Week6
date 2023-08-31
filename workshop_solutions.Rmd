@@ -15,7 +15,14 @@ output:
 ---
 
 # Bonus section
-
+```{r}
+library(tidyr)
+library(tidyverse)
+library(skimr)
+```
 ## Loading the data
-
+```{r}
+Armases <- read_csv("data.csv")
+summary(Armases)
+```
 ## An interesting plot
